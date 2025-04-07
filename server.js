@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB Connection
-mongoose.connect('mongodb://localhost:27017/meetz', {
+mongoose.connect('mongodb+srv://atlas-sample-dataset-load-67f3a849a5f73d5e430fabe3:8z7aaXDtGn5KZT4P@meetz.wrdokza.mongodb.net/?retryWrites=true&w=majority&appName=meetz', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
